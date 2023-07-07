@@ -1,0 +1,31 @@
+p {
+    padding-top: 1%;
+    justify-content: left right;
+    text-align: left;
+    justify-content: start end;
+    color: #dfd4b3;
+    font-size: clamp(20px, 4px, 40px);
+    font-size: 110%;
+}
+
+.link {
+    padding-bottom: 10%;
+
+}
+
+.redes {
+    text-align: center;
+    padding-bottom: 2%;
+  }
+  
+  .link {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .redes {
+      text-align: left;
+    }
+  }
+

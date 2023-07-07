@@ -1,0 +1,32 @@
+header {
+	padding-bottom: 3%;
+	color: #A2B1F2;
+	letter-spacing: 0.1em;
+	font-size: clamp(20px, 4vw, 40px);
+}
+
+section {
+	padding-bottom: 50%;
+}
+
+button {
+    outline: none;
+    text-decoration: none;
+	color: whitesmoke;
+}
+
+button:hover {
+	color: #A2B1F2;
+}
+
+button:active {
+	color: #A2B1F2;
+}
+
+button:link {
+	color: #A2B1F2;
+}
+
+button:focus {
+	color: #A2B1F2;
+}

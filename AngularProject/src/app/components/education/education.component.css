@@ -1,0 +1,97 @@
+header {
+	padding-bottom: 1%;
+	color: #A2B1F2;
+	letter-spacing: 0.1em;
+	font-size: clamp(20px, 4vw, 40px);
+}
+
+h2 {
+    font-weight: 600;
+}
+
+h3 {
+    padding-top: 20px;
+    color: #6674B3;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+section {
+    color: whitesmoke;
+}
+
+p {
+    font-size: 100%;
+    font-weight: 200%;
+    line-height: 1;
+    letter-spacing: 0.1em;
+}
+
+.row{
+    padding-bottom: 2%;
+}
+
+.momento {
+    color:rgb(218, 218, 218);
+}
+
+.momento:hover {
+    color: whitesmoke;
+    font-weight:800;
+}
+
+
+@keyframes opacity {
+    from { opacity: 0.0; }
+    to { opacity: 1;}
+    }
+
+
+.year2019 {
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-name: opacity;
+    animation-delay: 0s;
+    animation-duration: 2s;   
+}
+
+
+.year2020 {
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-name: opacity;
+    animation-delay: 0.5s;
+    animation-duration: 2s;
+}
+
+.year2020-t {
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-name: opacity;
+    animation-delay: 1s;
+    animation-duration: 2s;
+}
+
+.year2022 {
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-name: opacity;
+    animation-delay: 1.5s;
+    animation-duration: 2s;   
+}
+
+.year2022-t {
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-name: opacity;
+    animation-delay: 2s;
+    animation-duration: 2s;   
+}
+
+.year2023 {
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-name: opacity;
+    animation-delay: 2.5s;
+    animation-duration: 2s;   
+}

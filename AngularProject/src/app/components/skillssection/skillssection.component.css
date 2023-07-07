@@ -1,0 +1,305 @@
+/*Variables*/
+/*Valores de Skills*/
+
+section {
+	--valor-skill-1: 50%;
+	--valor-skill-2: 50%;
+	--valor-skill-3: 10%;
+	--valor-skill-4: 10%;
+	--valor-skill-5: 10%;
+	--valor-skill-6: 60%;
+	--valor-skill-7: 80%;
+	--valor-skill-8: 80%;
+	--valor-skill-9: 80%;
+	--valor-skill-10: 50%;
+	--valor-skill-11: 50%;
+	--valor-skill-12: 100%;
+	--valor-skill-13: 100%;
+	--valor-skill-14: 100%;
+	--valor-skill-15: 80%;
+}
+
+
+/*Section Style*/
+
+* {
+	list-style: none;
+}
+
+header {
+	padding-bottom: 3%;
+	color: #A2B1F2;
+	letter-spacing: 0.1em;
+	font-size: clamp(20px, 4vw, 40px);
+}
+
+section {
+	padding-bottom: 15%;
+}
+
+h4 {
+	color: whitesmoke;
+	opacity: 0.8;
+	letter-spacing: 0.2em;
+	padding-bottom: 1.5%;
+	padding-top: 3%;
+}
+
+.skillsblock {
+	padding-left: 0;
+	padding-right: 10%;
+}
+
+.skills li {
+	margin: 20px 0;
+}
+
+/*Bars Style*/
+
+.bar {
+	background-color: #07090F;
+	display: block;
+	height: 23px;
+	border: 1px solid #07090F;
+	border-radius: 3px;
+	box-shadow: 0 0 10px #A2B1F2;
+}
+
+.bar span {
+	height: 20px;
+	float: left;
+	background-color: #6674B3;
+}
+
+
+
+/*Skills Block 1*/
+.skill1 {
+	width: var(--valor-skill-1);
+	animation: skill1 4s;
+}
+
+.skill2{
+	width: var(--valor-skill-2);
+	animation: skill2 4s;
+}
+
+.skill3{
+	width: var(--valor-skill-3);
+	animation: skill3 4s;
+}
+
+.skill4{
+	width: var(--valor-skill-4);
+	animation: skill4 4s;
+}
+
+.skill5{
+	width: var(--valor-skill-5);
+	animation: skill5 4s;
+}
+
+@keyframes skill1{
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: var(--valor-skill-1);
+	}
+}
+
+@keyframes skill2{ 
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: var(--valor-skill-2);
+	}
+}
+
+@keyframes skill3{ 
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: var(--valor-skill-3);
+	}
+}
+
+@keyframes skill4{
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: var(--valor-skill-4);
+	}
+}
+
+@keyframes skill5{
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: var(--valor-skill-5);
+	}
+}
+
+
+
+/*Skills Block 2*/
+.skill6 {
+	width: var(--valor-skill-6);
+	animation: skill6 4s;
+}
+
+.skill7{
+	width: var(--valor-skill-7);
+	animation: skill7 4s;
+}
+
+.skill8{
+	width: var(--valor-skill-8);
+	animation: skill8 4s;
+}
+
+.skill9{
+	width: var(--valor-skill-9);
+	animation: skill9 4s;
+}
+
+.skill10{
+	width: var(--valor-skill-10);
+	animation: skill10 4s;
+}
+
+@keyframes skill6{
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: var(--valor-skill-6);
+	}
+}
+
+@keyframes skill7{ 
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: var(--valor-skill-7);
+	}
+}
+
+@keyframes skill8{ 
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: var(--valor-skill-8);
+	}
+}
+
+@keyframes skill9{
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: var(--valor-skill-9);
+	}
+}
+
+@keyframes skill10{
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: var(--valor-skill-10);
+	}
+}
+
+
+/*Skills Block 3*/
+.skill11 {
+	width: var(--valor-skill-11);
+	animation: skill11 4s;
+}
+
+.skill12{
+	width: var(--valor-skill-12);
+	animation: skill12 4s;
+}
+
+.skill13{
+	width: var(--valor-skill-13);
+	animation: skill13 4s;
+}
+
+.skill14{
+	width: var(--valor-skill-14);
+	animation: skill14 4s;
+}
+
+.skill15{
+	width: var(--valor-skill-15);
+	animation: skill15 4s;
+}
+
+@keyframes skill11{
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: var(--valor-skill-11);
+	}
+}
+
+@keyframes skill12{ 
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: var(--valor-skill-12);
+	}
+}
+
+@keyframes skill13{ 
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: var(--valor-skill-13);
+	}
+}
+
+@keyframes skill14{
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: var(--valor-skill-14);
+	}
+}
+
+@keyframes skill15{
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: var(--valor-skill-15);
+	}
+}

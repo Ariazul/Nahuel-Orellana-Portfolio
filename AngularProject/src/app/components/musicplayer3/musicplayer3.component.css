@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #0B0D17;
+    padding: 2%;
+}
+
+
+.descripción {
+    background-color:aliceblue;
+    opacity: 50%;
+    border-radius: 10px;
+}
+
+.musicplayer {
+    background-image: url(./../../../../media/images/Vinil01.png);
+    width: 100%auto;
+    padding: 25px 35px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10%;
+   
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+nav .boton {
+    color:sienna;
+    padding-top: 8%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.texto {
+    padding-left: 5%;
+    padding-right: 5%;
+    color: whitesmoke;
+}
+
+h2{
+    letter-spacing: 0.2em;
+    font-size: 30px;
+}
+
+h4 {
+    letter-spacing: 0.1em;
+}
+
+#progress {
+    -webkit-appearance: none;
+    width: 60%;
+    height: 2px;
+    background-color:tan;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 40px 0;
+}
+
+#progress::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: chocolate;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 8px solid black;
+
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.controls div {
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: black;
+    cursor: pointer;
+}
+
+.play {
+    transform: scale(2);
+
+}
+
+.ward {
+    opacity: 30%;
+}

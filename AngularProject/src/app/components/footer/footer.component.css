@@ -1,0 +1,12 @@
+section {
+    width: 100%;
+    color: #A2B1F2;
+    padding-bottom:  2%;
+}
+
+.credits {
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.1em;
+}
+
