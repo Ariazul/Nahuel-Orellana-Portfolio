@@ -23,6 +23,7 @@ import { Musicplayer5Component } from './components/musicplayer5/musicplayer5.co
 import { Musicplayer6Component } from './components/musicplayer6/musicplayer6.component';
 import { RedesComponent } from './components/redes/redes.component';
 import { MultiplayerComponent } from './components/multiplayer/multiplayer.component';
+import { HoverVideosComponent } from './components/hover-videos/hover-videos.component';
 
 @NgModule({
   declarations: [
@@ -48,6 +49,7 @@ import { MultiplayerComponent } from './components/multiplayer/multiplayer.compo
     Musicplayer6Component,
     RedesComponent,
     MultiplayerComponent,
+    HoverVideosComponent,
   ],
   imports: [
     BrowserModule
